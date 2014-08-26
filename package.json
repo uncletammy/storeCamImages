@@ -1,0 +1,26 @@
+{
+  "name": "storeCamImages",
+  "version": "0.0.0",
+  "description": "Saves chickenCam images in database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cramrod",
+  "license": "ISC",
+  "dependencies": {
+    "mongoskin": "~1.4.4",
+    "camPiper": "git+ssh://git@github.com:uncletammy/camPiper.git",
+    "imageReceiver": "git+ssh://git@github.com:uncletammy/imageReceiver.git",
+    "socket.io-client": "~1.0.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uncletammy/storeCamImages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uncletammy/storeCamImages/issues"
+  },
+  "homepage": "https://github.com/uncletammy/storeCamImages"
+}
